@@ -1,0 +1,10 @@
+<ul>
+    {% for submenu in submenus %}
+    <li>
+        <a href="?{{ main_menu }}={{ submenu.id }}">{{ submenu.title }}</a>
+    </li>
+    {% if submenu.children %}
+        {% include 'menu/tree_menu.html' with submenus=submenu.children %}
+    {% endif %}
+    {% endfor %}
+</ul>
