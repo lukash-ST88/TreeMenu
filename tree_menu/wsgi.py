@@ -1,5 +1,5 @@
 """
-WSGI config for tree_menu project.
+WSGI config.py for tree_menu project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

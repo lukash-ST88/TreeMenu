@@ -1,6 +1,6 @@
 from django import template
-from menu.functions.templatetag_functions import get_children_for_each_level_selected_submenu, get_selected_submenu_hierarchy
-from menu.models import SubMenu
+from ..functions.templatetag_functions import get_children_for_each_level_selected_submenu, get_selected_submenu_hierarchy
+from ..models import SubMenu
 
 register = template.Library()
 

@@ -1,5 +1,5 @@
 """
-ASGI config for tree_menu project.
+ASGI config.py for tree_menu project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
